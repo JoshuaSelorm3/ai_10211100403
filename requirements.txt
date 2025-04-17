@@ -16,3 +16,4 @@ faiss-cpu  # For vector storage
 requests  # For fetching dataset URLs
 langchain_google_genai  # For Gemini-Pro integration
 tf-keras
+google-generative-ai
