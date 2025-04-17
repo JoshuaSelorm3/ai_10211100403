@@ -1,12 +1,17 @@
-streamlit==1.18.0  # Updated to the latest stable version
-scikit-learn==1.2.2  # Latest stable version (compatible with Python 3.9+)
-tensorflow==2.11.0  # Latest stable version, compatible with numpy>=1.21.2
-pandas==1.5.3  # Latest stable version
-numpy==1.23.5  # Updated to a more recent stable version
-matplotlib==3.7.1  # Latest stable version
-plotly==5.9.0  # Latest stable version
-transformers==4.24.0  # Latest stable version
-sentence-transformers==2.2.2  # Latest stable version
-faiss-cpu==1.7.2  # Minor update to the latest version
-requests==2.28.1  # Latest stable version
-langchain==0.10.0  # Updated to the latest version compatible with Python 3.9
+
+streamlit  # For the web interface
+scikit-learn  # For regression and clustering
+tensorflow  # For neural networks
+pandas  # For data handling
+numpy  # For numerical operations
+matplotlib  # For visualizations
+plotly  # For interactive visualizations
+transformers  # For embeddings
+PyPDF2  # For potential PDF datasets (not used here)
+langchain  # For LLM integration
+
+# Additional dependencies
+sentence-transformers  # For text embeddings
+faiss-cpu  # For vector storage
+requests  # For fetching dataset URLs
+langchain_google_genai  # For Gemini-Pro integration
