@@ -62,11 +62,6 @@ The application is structured with modular components:
  cd ai_10211100403
 2. Install dependencies:
  pip install -r requirements.txt
-3. Set up environment variables:
-- Create a `.env` file with your Google API key:
-  ```
-  GOOGLE_API_KEY=your_api_key_here
-  ```
 
 4. Run the application:
  streamlit run app.py
@@ -84,7 +79,7 @@ The application is structured with modular components:
 - google-generative-ai
 
 ## Deployed Application
-[Link to deployed application](https://your-deployment-url.com)
+(https://ai10211100403-mb7hv99f8ex4cotctmrzfk.streamlit.app/)
 
 ## Documentation
 For full documentation including:
